@@ -3,9 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+
+    /*Font family here*/
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
 }
 
 body {
+    background-color: #d5d3d2;
+    color: black;
     overflow: hidden;
     overflow-y: scroll;
 }

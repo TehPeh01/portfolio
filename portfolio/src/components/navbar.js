@@ -4,15 +4,15 @@ import { Link } from 'react-scroll';
  
 const Navbar = () => {
     return (
-        <nav className="navbar">
-            <img src="" alt="Logo" className="logo"/>
+        <nav id="navbar">
+            <div alt="Logo" className="logo">Teh Li Peh</div>
             <div className="desktopMenu">
-                <Link className="desktopMenuListItem">Home</Link>
-                <Link className="desktopMenuListItem">About</Link>
-                <Link className="desktopMenuListItem">Skills</Link>
-                <Link className="desktopMenuListItem">Projects</Link>
+                <Link className="desktopMenuListItem">HOME</Link>
+                <Link className="desktopMenuListItem">ABOUT</Link>
+                <Link className="desktopMenuListItem">SKILLS</Link>
+                <Link className="desktopMenuListItem">PROJECTS</Link>
+                <Link className="desktopMenuListItem">CONTACT</Link>
             </div>
-            <button className="desktopMenuBtn">Contact Me</button>
         </nav>
     )
 }

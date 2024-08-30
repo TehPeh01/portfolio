@@ -1,29 +1,28 @@
-.navbar {
+#navbar {
+    background-color: #d5d3d2;
     height: 5rem;
-    width: 100vw;
-    max-width: 75rem;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1rem 15rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 3;
-    border: 1px solid black;
+    font-size: large;
+    font-weight: bold;
 }
 
 .logo {
-    object-fit: cover;
     height: 3rem;
-    width: 6rem;
-    border: 1px solid red;
+    width: 10rem;
+    font-size: xx-large;
 }
 
 /*space between nav list and display pointer when hover*/
 .desktopMenuListItem {
-    margin: 1rem;
     cursor: pointer;
+    margin: 2rem;
 }
 
 .desktopMenuListItem:hover {
@@ -32,15 +31,4 @@
     border-bottom: 3px solid red;
 }
 
-/*for contact*/
-.desktopMenuBtn {
-    background-color: black;
-    color: white;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 1rem;
-    border-radius: 2rem;
-}
 
